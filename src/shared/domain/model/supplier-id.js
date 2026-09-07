@@ -1,6 +1,7 @@
 import {ValidationError} from "./errors.js";
 import {generateUUID, validateUuid} from "./uuid.js";
 
+
 export class SupplierID {
     #value;
 
